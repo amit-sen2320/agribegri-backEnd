@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: agribegri-backEnd
-    buildCommand: "./mvnw clean package"
-    startCommand: "java -jar target/loginapp-0.0.1-SNAPSHOT.jar"
-    branch: main
